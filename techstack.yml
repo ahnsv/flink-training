@@ -1,0 +1,118 @@
+repo_name: ahnsv/flink-training
+report_id: 16b2fcfe89537bcb15111b3963cb3c9f
+version: 0.1
+repo_type: Public
+timestamp: '2024-05-27T04:24:48+00:00'
+requested_by: ahnsv
+provider: github
+branch: master
+detected_tools_count: 9
+tools:
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/ahnsv/flink-training
+  detection_source: Repo Metadata
+- name: Scala
+  description: A pure-bred object-oriented language that runs on the JVM
+  website_url: http://www.scala-lang.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1012/scala.png
+  detection_source_url: https://github.com/ahnsv/flink-training
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/ahnsv/flink-training
+  detection_source: Repo Metadata
+- name: Gradle
+  description: A powerful build system for the JVM
+  website_url: https://www.gradle.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source_url: https://github.com/ahnsv/flink-training/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Nico Kruber
+  last_updated_on: 2020-04-20 10:47:03.000000000 Z
+- name: Log4j
+  description: A Java-based logging utility
+  website_url: https://logging.apache.org/log4j/2.x/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Logging Tools
+  image_url: https://img.stackshare.io/service/2804/Coralogix-log4j-integration.jpg
+  detection_source_url: https://github.com/ahnsv/flink-training/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Nico Kruber
+  last_updated_on: 2020-04-20 10:47:03.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/ahnsv/flink-training/blob/master/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: Nico Kruber
+  last_updated_on: 2020-04-20 10:03:48.000000000 Z
+- name: log4j:log4j
+  description: Apache Log4j 1.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/ahnsv/flink-training/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Nico Kruber
+  last_updated_on: 2020-04-20 10:47:03.000000000 Z
+- name: org.apache.flink:flink-java
+  description: The Apache Software Foundation provides support for the Apache community
+    of open-source software projects
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/ahnsv/flink-training/blob/master/common/build.gradle
+  detection_source: common/build.gradle
+  last_updated_by: Nico Kruber
+  last_updated_on: 2020-04-20 10:47:03.000000000 Z
+- name: org.slf4j:slf4j-log4j12
+  description: SLF4J LOG4J-12 Binding
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/ahnsv/flink-training/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Nico Kruber
+  last_updated_on: 2020-04-20 10:47:03.000000000 Z
